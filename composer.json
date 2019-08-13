@@ -1,0 +1,25 @@
+{
+  "name": "tseguier/azure-sb-health-checker",
+  "type": "symfony-bundle",
+  "require": {
+    "php": ">=7.1",
+    "tseguier/health-check": "*",
+    "symfony/http-kernel": "^4.1",
+    "symfony/config": "^4.1",
+    "symfony/dependency-injection": "^4.1",
+    "microsoft/windowsazure": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tseguier",
+      "email": "t.seguier.ext_azu@sodexo.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Tseguier\\AzureSbHealthCheckerBundle\\": "src/" }
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.15"
+  }
+}
